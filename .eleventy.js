@@ -1,9 +1,13 @@
-module.exports = {
-  dir: {
-    input: "src",
-    includes: "_includes",
-    layouts: "_layouts",
-    data: "_data",
-    output: "docs"
-  }
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/logo.png");
+
+  return {
+    dir: {
+      input: "src",
+      includes: "_includes",
+      layouts: "_layouts",
+      data: "_data",
+      output: "docs"
+    }
+  };
 };
