@@ -1,16 +1,43 @@
 <!doctype html>
-<html lang="nl">
+<html lang="nl" data-theme="light">
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>{{ title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+  <style>
+    :root {
+      --pico-font-family: system-ui, -apple-system, sans-serif;
+    }
+    nav ul { flex-wrap: wrap; }
+    nav li { padding: 0.25rem 0; }
+    header { background: var(--pico-card-background-color); border-bottom: 1px solid var(--pico-muted-border-color); }
+    footer { text-align: center; padding: 2rem 0; color: var(--pico-muted-color); font-size: 0.875rem; }
+  </style>
 </head>
 <body>
   <header>
-    <nav>OVERSTAG &bull; <a href="/">Home</a> &bull; <a href="/overstag/">OVERSTAG</a> &bull; <a href="/team/">Team</a> &bull; <a href="/praktijkopleiders/">Praktijkopleiders</a> &bull; <a href="/opleidingen/">Opleidingen</a> &bull; <a href="/resources/">Resources</a> &bull; <a href="/nieuws/">Nieuws</a> &bull; <a href="/contact/">Contact</a></nav>
+    <nav class="container">
+      <ul>
+        <li><strong>OVERSTAG</strong></li>
+      </ul>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/overstag/">Over ons</a></li>
+        <li><a href="/team/">Team</a></li>
+        <li><a href="/praktijkopleiders/">Praktijkopleiders</a></li>
+        <li><a href="/opleidingen/">Opleidingen</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/nieuws/">Nieuws</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <main>
+  <main class="container">
     {{ content | safe }}
   </main>
-  <footer>&copy; OVERSTAG</footer>
+  <footer class="container">
+    <small>&copy; OVERSTAG &mdash; Huisartsopleiding Oost-Vlaanderen</small>
+  </footer>
 </body>
 </html>
