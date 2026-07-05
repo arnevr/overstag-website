@@ -26,7 +26,6 @@ praktijkopleiders de juiste ondersteuning krijgen.
 ## Wat we doen
 
 - Organisatie van vergaderingen van de Raad van Bestuur
-- HAIO-begeleiding en praktijkondersteuning
 - Ontwikkeling en verspreiding van beleidsnotities
 - Kennisdeling en netwerkmomenten tussen praktijkopleiders
 - Vertegenwoordiging in Sui vzw (Algemene Vergadering en Raad van Bestuur) en de POC, om
