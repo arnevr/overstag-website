@@ -3,6 +3,9 @@ layout: base
 title: Nieuws
 permalink: /nieuws/
 ---
-## Korte notities en updates
-- Kwartaalupdates, aankondigingen en relevante events
-- Release-notities of beleidspublicaties (later uitbreiden)
+## Nog geen nieuws gepubliceerd
+
+Er zijn momenteel geen aankondigingen. Zodra er kwartaalupdates, vergaderverslagen of
+beleidspublicaties zijn, verschijnen ze hier.
+
+Voor dringende vragen ondertussen: zie [contact](/contact/).
